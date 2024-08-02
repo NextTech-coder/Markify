@@ -1,0 +1,21 @@
+#markify {
+    height: 600px;
+}
+
+.markify {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.markify textarea {
+    width: 50%;
+    height: 100%;
+    border: none;
+    resize: none;
+}
+
+.markify article {
+    width: 50%;
+    height: 100%;
+}
