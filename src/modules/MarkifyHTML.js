@@ -7,9 +7,18 @@ export default class MarkifyHTML {
 
     #render() {
         return `
+            ${this.#navigate()}
             <div class="markify">
                 <textarea></textarea>
                 <article>Привет мир</article>
+            </div>
+        `;
+    }
+
+    #navigate() {
+        return `
+            <div class="markify-navigate">
+                <h1>Навигация</h1>
             </div>
         `;
     }
