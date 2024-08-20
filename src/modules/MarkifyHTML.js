@@ -1,5 +1,6 @@
 export default class MarkifyHTML {
     #element;
+    
     constructor(elementID) {
         this.#element = document.getElementById(elementID);
         this.#element.innerHTML = this.#render();
@@ -12,7 +13,7 @@ export default class MarkifyHTML {
                 <textarea></textarea>
                 <article>Привет мир</article>
             </div>
-        `;
+        `
     }
 
     #navigate() {

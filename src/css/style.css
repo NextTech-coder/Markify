@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 #markify {
+    width: 1200px;
     height: 600px;
+    margin: 0 auto;
 }
 
 .markify {
@@ -11,21 +13,32 @@
     line-height: 1.5;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 600px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
 }
 
 .markify textarea {
     width: 50%;
-    height: 100%;
+    height: auto;
     border: none;
     resize: none;
     padding: 20px;
     font-weight: 400;
     font-size: 20px;
+    border-right: 1px solid gainsboro;
 }
 
 .markify article {
     width: 50%;
-    height: 100%;
+    height: auto;
     padding: 20px;
+}
+
+.markify-navigate {
+    height: 50px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
 }
